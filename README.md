@@ -114,6 +114,4 @@ The system uses custom exceptions to enforce valid domain operations:
 - Support additional loan types beyond `PersonalLoan`
 - Add a build tool (Maven/Gradle) for dependency and build management
 
-## License
 
-Specify a license here (e.g., MIT) if you plan to share or open-source this project.
