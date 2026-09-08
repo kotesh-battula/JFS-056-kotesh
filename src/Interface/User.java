@@ -7,7 +7,8 @@ public class User {
 	}
 	public static void main(String[] args)
 	{
-		Oneplus cam=new Oneplus();
-		cam.playMusic();
+		Camera cam=new Oneplus();
+		cam.click();
+		takephoto(cam);
 	}
 }
