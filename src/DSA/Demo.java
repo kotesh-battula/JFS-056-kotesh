@@ -12,7 +12,7 @@ public class Demo {
 			System.out.print(i.empid);
 			System.out.println(i.empname);
 		}
-		List<Integer> ls=Arrays.asList(2,5,7,4);
+		List ls=(List) Arrays.asList(2,5,7,4);
 		System.out.println(ls);
 		
 		int[] k= {4,3,2,5,8};
