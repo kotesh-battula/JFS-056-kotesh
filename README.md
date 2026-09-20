@@ -1,1 +1,1 @@
-Java Practice workspace for eventual growth to observe
+Java Practice workspace for my technical growth.
