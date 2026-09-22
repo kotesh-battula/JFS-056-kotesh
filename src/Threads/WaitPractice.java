@@ -1,6 +1,6 @@
 package Threads;
 
-public class WaitPractice extends Thread {
+public class WaitPractice  {
 	synchronized void message()
 	{
 		System.out.println("Thread name is "+Thread.currentThread().getName());
