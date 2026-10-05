@@ -8,7 +8,7 @@ public class Numbers extends Thread{
 	}
 	public void show()
 	{
-		System.out.println("HII namastye this is kotesh and thread name is "+Thread.currentThread().getName());
+		System.out.println("HII namasthe this is kotesh and thread name is "+Thread.currentThread().getName());
 	}
 	public static void main(String[] args) throws InterruptedException
 	{
@@ -22,7 +22,7 @@ public class Numbers extends Thread{
 		t.start();
 		t.join();
 		t1.start();
-		t1.join();
+		//t1.join();
 		System.out.println("Program finished");
 	}
 }
