@@ -22,7 +22,5 @@ public class AnagramMap {
 				map.put(s1, al);
 			}
 		}
-		
-		
 	}
 }
