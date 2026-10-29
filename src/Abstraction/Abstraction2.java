@@ -11,4 +11,9 @@ public class Abstraction2 extends Abstract1{
 		k.display();
 		k.show();
 	}
+	@Override
+	public void koti() {
+		// TODO Auto-generated method stub
+		
+	}
 }

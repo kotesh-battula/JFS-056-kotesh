@@ -1,26 +1,15 @@
 package Recursion;
-import java.util.Scanner;
+
 public class Fibonacci {
-	static int a=0;
-	static int b=1;
-	static void Fibo(int n)
+	public static void fib(int n,int a,int b)
 	{
 		if(n==0)
-		{
-			return;
-		}
+			return ;
 		System.out.print(a+" ");
-		int c=a+b;
-		a=b;
-		b=c;
-		Fibo(n-1);
+		fib(n-1,b,a+b);
 	}
 	public static void main(String[] args)
 	{
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter Number: ");
-		int n=sc.nextInt();
-		System.out.println("The Fibonacci Series");
-		Fibo(n);
+		fib(7,0,1);
 	}
 }
