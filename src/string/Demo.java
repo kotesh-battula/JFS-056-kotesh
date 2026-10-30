@@ -3,6 +3,10 @@ package string;
 import java.util.Scanner;
 
 public class Demo {
+	public boolean equals(Object obj)
+	{
+		return 
+	}
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
